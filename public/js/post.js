@@ -58,11 +58,19 @@ const projects = [{
     {
         title: "Budget Buddies",
         summary:"A fullstack financial planning application that can help you be conscience of your day to day purchases.",
-        image_path:,
-        image_icon:,
+        image_path: "./img/budgetbuddy.gif",
+        image_icon: "./img/cd-icon-movie.svg",
         github_url: "https://github.com/eddyangang/budget-buddy",
         deployed_url: "https://agile-retreat-52176.herokuapp.com/",
         date: new Date (2020, 07, 01)
+    },
+    {
+        title: "Employee Tracker",
+        summary: "A command line application allows the user to quickly add, view, and update employees, roles, and departments within a company; and have the data stored in a SQL database.",
+        image_path: "./img/preview.gif",
+        image_icon: "./img/cd-icon-movie.svg",
+        github_url: "https://github.com/eddyangang/employeeTracker",
+        date: new Date(2020, 06, 20)
     }
 ]
 

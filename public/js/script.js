@@ -22,9 +22,9 @@ function appendData (data) {
             Read more
          </button>`
 
-        if (element.deployed_url) block += `<a href="${element.deployed_url}" class="btn btn-primary" target="_blank">Deployed Site</a>`
+        if (element.deployed_url) block += `<a href="${element.deployed_url}" class="btn btn-primary mx-2" target="_blank">Deployed Site</a>`
 
-        if (element.github_url) block += `<a href="${element.github_url}" class="btn btn-secondary" target="_blank">Github</a>`
+        if (element.github_url) block += `<a href="${element.github_url}" class="btn btn-secondary mx-2" target="_blank">Github</a>`
 
    
         block += 
