@@ -14,18 +14,10 @@ app.use(express.urlencoded({
 }));
 app.use(express.json());
 
-// Set Handlebars.
-// var exphbs = require("express-handlebars");
-
-// app.engine("handlebars", exphbs({
-//     defaultLayout: "main"
-// }));
-
-// app.set("view engine", "handlebars");
-
 require("./route/html-route.js")(app);
 require("./route/api-route.js")(app);
-db.sequelize.sync({ force: false }).then(function() {
+
+db.sequelize.sync({ force: true }).then(function() {
     app.listen(PORT, function() {
       console.log("App listening on http://localhost:" + PORT);
     });
