@@ -17,7 +17,7 @@ app.use(express.json());
 require("./route/html-route.js")(app);
 require("./route/api-route.js")(app);
 
-db.sequelize.sync({ force: true }).then(function() {
+db.sequelize.sync({ force: false }).then(function() {
     app.listen(PORT, function() {
       console.log("App listening on http://localhost:" + PORT);
     });
