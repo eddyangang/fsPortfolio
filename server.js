@@ -10,15 +10,17 @@ app.use(express.static("public"));
 
 // Parse application body as JSON
 app.use(express.urlencoded({
-    extended: true
+  extended: true
 }));
 app.use(express.json());
 
 require("./route/html-route.js")(app);
 require("./route/api-route.js")(app);
 
-db.sequelize.sync({ force: false }).then(function() {
-    app.listen(PORT, function() {
-      console.log("App listening on http://localhost:" + PORT);
-    });
+db.sequelize.sync({
+  force: false
+}).then(function () {
+  app.listen(PORT, function () {
+    console.log("App listening on http://localhost:" + PORT);
   });
+});

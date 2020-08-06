@@ -12,8 +12,8 @@ module.exports = function (sequelize, DataTypes) {
         },
         image_path: DataTypes.STRING,
         image_icon: DataTypes.STRING,
-        github_url:DataTypes.STRING,
-        deployed_url:DataTypes.STRING,
+        github_url: DataTypes.STRING,
+        deployed_url: DataTypes.STRING,
         date: DataTypes.DATE
     });
     return Projects;

@@ -48,7 +48,7 @@ const projects = [{
     },
     {
         title: "Weather App",
-        summary: "A mobile responsive weather application allowing users to search for cities and obtain weather forecast using three different HTTP request from OpenWeatherMap API.", 
+        summary: "A mobile responsive weather application allowing users to search for cities and obtain weather forecast using three different HTTP request from OpenWeatherMap API.",
         image_path: "./img/weatherApp.gif",
         image_icon: "./img/cd-icon-movie.svg",
         github_url: "https://github.com/eddyangang/weather-station",
@@ -57,12 +57,12 @@ const projects = [{
     },
     {
         title: "Budget Buddies",
-        summary:"A fullstack financial planning application that can help you be conscience of your day to day purchases.",
+        summary: "A fullstack financial planning application that can help you be conscience of your day to day purchases.",
         image_path: "./img/budgetbuddy.gif",
         image_icon: "./img/cd-icon-movie.svg",
         github_url: "https://github.com/eddyangang/budget-buddy",
         deployed_url: "https://agile-retreat-52176.herokuapp.com/",
-        date: new Date (2020, 07, 01)
+        date: new Date(2020, 07, 01)
     },
     {
         title: "Employee Tracker",
